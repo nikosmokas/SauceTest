@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-08T15:55:04 EEST" name="SauceTestSuite" finished-at="2024-07-08T15:55:11 EEST" duration-ms="7496">
+    <groups>
+    </groups>
+    <test started-at="2024-07-08T15:55:04 EEST" name="SauceTests" finished-at="2024-07-08T15:55:11 EEST" duration-ms="7496">
+      <class name="testing.CheckoutOverviewValidation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.CheckoutOverviewValidation@16414e40]" started-at="2024-07-08T15:55:08 EEST" name="setUp" finished-at="2024-07-08T15:55:09 EEST" duration-ms="1248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutOverviewValidation()[pri:0, instance:testing.CheckoutOverviewValidation@16414e40]" started-at="2024-07-08T15:55:09 EEST" name="testCheckoutOverviewValidation" finished-at="2024-07-08T15:55:11 EEST" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutOverviewValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.CheckoutOverviewValidation@16414e40]" started-at="2024-07-08T15:55:11 EEST" name="tearDown" finished-at="2024-07-08T15:55:11 EEST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testing.CheckoutOverviewValidation -->
+      <class name="testing.CheckoutStepOneErrorValidation">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:testing.CheckoutStepOneErrorValidation@3e7dd664]" started-at="2024-07-08T15:55:04 EEST" name="setUpSuite" finished-at="2024-07-08T15:55:04 EEST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testing.CheckoutStepOneErrorValidation@3e7dd664]" started-at="2024-07-08T15:55:04 EEST" name="setUp" finished-at="2024-07-08T15:55:06 EEST" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutStepOneErrorValidation()[pri:0, instance:testing.CheckoutStepOneErrorValidation@3e7dd664]" started-at="2024-07-08T15:55:06 EEST" name="testCheckoutStepOneErrorValidation" finished-at="2024-07-08T15:55:08 EEST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutStepOneErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testing.CheckoutStepOneErrorValidation@3e7dd664]" started-at="2024-07-08T15:55:08 EEST" name="tearDown" finished-at="2024-07-08T15:55:08 EEST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:testing.CheckoutStepOneErrorValidation@3e7dd664]" started-at="2024-07-08T15:55:12 EEST" name="tearDownSuite" finished-at="2024-07-08T15:55:12 EEST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- testing.CheckoutStepOneErrorValidation -->
+    </test> <!-- SauceTests -->
+  </suite> <!-- SauceTestSuite -->
+</testng-results>

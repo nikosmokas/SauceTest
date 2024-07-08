@@ -1,0 +1,30 @@
+2024-07-08 15:55:04.367 [main] INFO  testing.BaseTest - Video recording started
+2024-07-08 15:55:04.560 [main] INFO  testing.CheckoutStepOneErrorValidation - This is beforeMethod in first test
+2024-07-08 15:55:04.560 [main] INFO  testing.CheckoutStepOneErrorValidation - Setting up a driver.
+2024-07-08 15:55:06.830 [main] INFO  testing.CheckoutStepOneErrorValidation - ChromeDriver initiated
+2024-07-08 15:55:06.947 [main] INFO  testing.CheckoutStepOneErrorValidation - Logging in...
+2024-07-08 15:55:07.623 [main] INFO  testing.CheckoutStepOneErrorValidation - Adding a product to the cart...
+2024-07-08 15:55:07.989 [main] INFO  testing.CheckoutStepOneErrorValidation - Navigating to the cart...
+2024-07-08 15:55:08.335 [main] INFO  testing.CheckoutStepOneErrorValidation - Clicking continue without filling in the form...
+2024-07-08 15:55:08.522 [main] INFO  testing.CheckoutStepOneErrorValidation - Error message detected, as it should.
+2024-07-08 15:55:08.522 [main] INFO  testing.CheckoutStepOneErrorValidation - Test 'Checkout Step One Error Validation' passed
+2024-07-08 15:55:08.530 [main] INFO  testing.CheckoutStepOneErrorValidation - This is afterMethod in first test
+2024-07-08 15:55:08.711 [main] INFO  testing.CheckoutStepOneErrorValidation - Browser closed
+2024-07-08 15:55:08.714 [main] INFO  testing.CheckoutOverviewValidation - This is beforeMethod in second test
+2024-07-08 15:55:08.714 [main] INFO  testing.CheckoutOverviewValidation - Setting up a driver.
+2024-07-08 15:55:09.962 [main] INFO  testing.CheckoutOverviewValidation - ChromeDriver initiated
+2024-07-08 15:55:09.963 [main] INFO  testing.CheckoutOverviewValidation - Logging in with username = 'standard_user' and password = 'secret_sauce'
+2024-07-08 15:55:10.429 [main] INFO  testing.CheckoutOverviewValidation - Login successful. Adding products...
+2024-07-08 15:55:10.665 [main] INFO  testing.CheckoutOverviewValidation - Added product: Sauce Labs Backpack with price: $29.99
+2024-07-08 15:55:10.852 [main] INFO  testing.CheckoutOverviewValidation - Added product: Sauce Labs Bike Light with price: $9.99
+2024-07-08 15:55:11.011 [main] INFO  testing.CheckoutOverviewValidation - Clicking on cart
+2024-07-08 15:55:11.114 [main] INFO  testing.CheckoutOverviewValidation - Clicking checkout
+2024-07-08 15:55:11.274 [main] INFO  testing.CheckoutOverviewValidation - Filling in the checkout form
+2024-07-08 15:55:11.702 [main] INFO  testing.CheckoutOverviewValidation - Validating checkoutOverview: Product 1 name and checkoutName: Sauce Labs Backpack - Sauce Labs Backpack
+2024-07-08 15:55:11.703 [main] INFO  testing.CheckoutOverviewValidation - Validating checkoutOverview: Product 2 name and checkoutName: Sauce Labs Bike Light - Sauce Labs Bike Light
+2024-07-08 15:55:11.703 [main] INFO  testing.CheckoutOverviewValidation - Validating checkoutOverview: Product 1 price and checkoutPrice: $29.99 - $29.99
+2024-07-08 15:55:11.703 [main] INFO  testing.CheckoutOverviewValidation - Validating checkoutOverview: Product 2 price and checkoutPrice: $9.99 - $9.99
+2024-07-08 15:55:11.703 [main] INFO  testing.CheckoutOverviewValidation - Test 'Checkout Overview Validation' passed
+2024-07-08 15:55:11.704 [main] INFO  testing.CheckoutOverviewValidation - This is afterMethod in second test
+2024-07-08 15:55:11.866 [main] INFO  testing.CheckoutOverviewValidation - Browser closed
+2024-07-08 15:55:12.361 [main] INFO  testing.BaseTest - Video recording stopped

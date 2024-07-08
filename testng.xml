@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceTestSuite">
+    <listeners>
+        <listener class-name="listener.ExtentTestNGITestListener"/>
+    </listeners>
+    <test name="SauceTests">
+        <classes>
+            <class name="testing.CheckoutStepOneErrorValidation" />
+            <class name="testing.CheckoutOverviewValidation" />
+        </classes>
+    </test>
+</suite>
